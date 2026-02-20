@@ -123,6 +123,15 @@ def get_templates(project_dir: str) -> dict[str, Template]:
             args=["-y", "@modelcontextprotocol/server-everything"],
             env_template="# Dev/testing server\n",
         ),
+        "rentahuman": Template(
+            key="rentahuman",
+            command="npx",
+            args=["-y", "rentahuman-mcp"],
+            env_template=(
+                "# RentAHuman API key (starts with rah_)\n"
+                "RENTAHUMAN_API_KEY=\n"
+            ),
+        ),
 
         # Catch-all custom template (including HumanRent/custom MCP)
         "custom-stdio": Template(

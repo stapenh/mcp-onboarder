@@ -13,7 +13,8 @@ CLI для быстрого подключения MCP-серверов в `mcpo
 - `nocodb` (через `nocodb-mcp-server`)
 - `mcp-filesystem`, `mcp-github`, `mcp-postgres`, `mcp-memory`
 - `mcp-brave-search`, `mcp-slack`, `mcp-sequential-thinking`, `mcp-pdf`, `mcp-everything`
-- `custom-stdio` (для кастомных MCP, в т.ч. если появится HumanRent MCP)
+- `rentahuman` (`npx -y rentahuman-mcp` + `RENTAHUMAN_API_KEY`)
+- `custom-stdio` (для любого кастомного MCP)
 
 ## Установка
 
