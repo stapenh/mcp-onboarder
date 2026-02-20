@@ -11,6 +11,9 @@ CLI для быстрого подключения MCP-серверов в `mcpo
 - `telegram-mcp` (stdio через `uv run main.py`)
 - `hyperliquid-info` (read-only)
 - `nocodb` (через `nocodb-mcp-server`)
+- `mcp-filesystem`, `mcp-github`, `mcp-postgres`, `mcp-memory`
+- `mcp-brave-search`, `mcp-slack`, `mcp-sequential-thinking`, `mcp-pdf`, `mcp-everything`
+- `custom-stdio` (для кастомных MCP, в т.ч. если появится HumanRent MCP)
 
 ## Установка
 
